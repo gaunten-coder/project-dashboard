@@ -1,0 +1,49 @@
+{
+  "id": "storyboard",
+  "name": "스토리보드 제작",
+  "icon": "🎬",
+  "status": "active",
+  "description": "컷 분석 파이프라인 → Obsidian 연동",
+  "workflow": [
+    "Claude",
+    "Codex"
+  ],
+  "tasks": [
+    {
+      "id": "t001",
+      "title": "파이썬 파이프라인 구축",
+      "status": "done",
+      "completedAt": "2026-04-20"
+    },
+    {
+      "id": "t002",
+      "title": "한국어 분석 249컷 완료",
+      "status": "done",
+      "completedAt": "2026-04-23"
+    },
+    {
+      "id": "t003",
+      "title": "누락 101컷 재분석",
+      "status": "in_progress",
+      "startedAt": "2026-04-24"
+    },
+    {
+      "id": "t004",
+      "title": "Obsidian 최종 연동 확인",
+      "status": "pending"
+    },
+    {
+      "id": "t005",
+      "title": "전체 테스트 및 검수",
+      "status": "pending"
+    }
+  ],
+  "daily_logs": [
+    {
+      "date": "2026-04-24",
+      "summary": "249컷 분석 완료. 누락 101컷 재분석 명령어 수정.",
+      "tomorrow": "101컷 완료 목표",
+      "progress": 71
+    }
+  ]
+}

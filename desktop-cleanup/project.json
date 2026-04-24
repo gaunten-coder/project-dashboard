@@ -1,0 +1,42 @@
+{
+  "id": "desktop-cleanup",
+  "name": "바탕화면 정리",
+  "icon": "🗂",
+  "status": "active",
+  "description": "하루 지난 이미지/영상 자동 정리",
+  "workflow": [
+    "Claude"
+  ],
+  "tasks": [
+    {
+      "id": "t001",
+      "title": "desktop_cleaner.py 작성",
+      "status": "done",
+      "completedAt": "2026-04-19"
+    },
+    {
+      "id": "t002",
+      "title": "테스트 완료",
+      "status": "done",
+      "completedAt": "2026-04-19"
+    },
+    {
+      "id": "t003",
+      "title": "Mac .app 패키징",
+      "status": "pending"
+    },
+    {
+      "id": "t004",
+      "title": "다른 컴퓨터 동작 확인",
+      "status": "pending"
+    }
+  ],
+  "daily_logs": [
+    {
+      "date": "2026-04-19",
+      "summary": "스크립트 완성 및 테스트 통과.",
+      "tomorrow": "PyInstaller로 .app 패키징",
+      "progress": 50
+    }
+  ]
+}

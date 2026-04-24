@@ -1,0 +1,34 @@
+{
+  "id": "memo-cleanup",
+  "name": "메모장 정리",
+  "icon": "📝",
+  "status": "pending",
+  "description": "다른 컴퓨터의 메모 파일 정리 자동화",
+  "workflow": [
+    "Claude",
+    "Codex"
+  ],
+  "tasks": [
+    {
+      "id": "t001",
+      "title": "메모 파일 구조 파악",
+      "status": "pending"
+    },
+    {
+      "id": "t002",
+      "title": "정리 로직 설계",
+      "status": "pending"
+    },
+    {
+      "id": "t003",
+      "title": "스크립트 작성",
+      "status": "pending"
+    },
+    {
+      "id": "t004",
+      "title": "테스트 및 배포",
+      "status": "pending"
+    }
+  ],
+  "daily_logs": []
+}

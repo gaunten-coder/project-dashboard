@@ -1,0 +1,49 @@
+{
+  "id": "camera-metadata",
+  "name": "카메라 메타데이터 추출",
+  "icon": "📷",
+  "status": "active",
+  "description": "영상 파일 메타데이터 자동 추출 및 정리",
+  "workflow": [
+    "Claude",
+    "Codex"
+  ],
+  "tasks": [
+    {
+      "id": "t001",
+      "title": "extract_metadata.py 기본 구조",
+      "status": "done",
+      "completedAt": "2026-04-22"
+    },
+    {
+      "id": "t002",
+      "title": "8개 핵심 컬럼 선정",
+      "status": "done",
+      "completedAt": "2026-04-24"
+    },
+    {
+      "id": "t003",
+      "title": "Numbers 출력 최적화",
+      "status": "done",
+      "completedAt": "2026-04-24"
+    },
+    {
+      "id": "t004",
+      "title": "다른 컴퓨터 테스트",
+      "status": "pending"
+    },
+    {
+      "id": "t005",
+      "title": "자동 실행 스케줄 설정",
+      "status": "pending"
+    }
+  ],
+  "daily_logs": [
+    {
+      "date": "2026-04-24",
+      "summary": "8컬럼 표시 설정 완료.",
+      "tomorrow": "다른 컴퓨터 테스트",
+      "progress": 70
+    }
+  ]
+}
